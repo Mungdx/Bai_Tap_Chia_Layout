@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Carousel() {
   return (
-    <div id="demo" className="carousel slide" data-ride="carousel">
+    <div  id="demo" className="carousel slide" data-ride="carousel">
       {/* Indicators */}
       <ul className="carousel-indicators">
         <li data-target="#demo" data-slide-to={0} className="active" />
